@@ -1,0 +1,7 @@
+{
+  "name": "flashfood",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

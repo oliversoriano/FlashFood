@@ -1,0 +1,83 @@
+ion-content{
+    --background: #F5C771;
+    margin: 0 auto;
+}
+
+.titulo{
+    text-align: center;
+    color: #9A0000;
+}
+ 
+.titulo2{
+    margin-left: 15px;
+    color: #9A0000;
+}
+
+.titulo3{
+    margin-left: 15px;
+    color: #9A0000;
+    font-style: italic;
+}
+
+.linha{
+    text-align: center;
+    margin-top: -25px;
+    color: #9A0000;
+}
+
+
+.cupom{
+    background-color: #FFEBC5;
+    border-radius: 15px;
+}
+
+.cupomstring{
+    color: black;
+    margin-left: 30px;
+    margin-top: -18px;
+}
+
+.cupomimg{
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+.lanche1{
+    background-color: #FFDFA3;
+}
+
+.lanche1img{
+    width: 130px;
+    height: 100px;
+    margin-left: 190px;
+    margin-top: -30px;
+}
+
+.bebida1{
+    background-color: #FFDFA3;
+}
+
+.bebida1img{
+    width: 130px;
+    height: 120px;
+    margin-left: 190px;
+    margin-top: -30px;
+}
+
+.ingredientes{
+    margin-right: 120px;
+    float: left;
+    margin-top: -60px;
+}
+
+.coloricon{
+    color: #9A0000;
+}
+
+.tabcolor{
+    border-color: #9A0000;
+    --background: #F5C771;
+    position: relative;
+    margin-top: -600px;
+}

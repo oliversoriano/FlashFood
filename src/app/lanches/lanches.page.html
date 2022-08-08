@@ -1,0 +1,59 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+
+  <div>
+    <h1 class="titulo">
+      -FLASH FOOD-
+    </h1>
+
+    <h2 class="linha">___________________________</h2> <br>
+  </div>
+
+  <ion-card class="cupom">
+    <ion-card-header>
+      <img class="cupomimg">
+      <ion-card-subtitle (click)="alerta()" class="cupomstring">Cupom de R$ 5,00</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <div>
+    <h1 class=titulo2>Lanches:</h1>
+
+    <div>
+      <ion-card class="lanche1" routerLink="/flashbacon">
+        <ion-card-header>
+          <ion-card-title>Flash Bacon</ion-card-title>
+          <img class="lanche1img" src="assets/lanche1.png">
+          <ion-card-subtitle class="ingredientes">Pão de humbúrguer, humbúrguer, muçarela, bacon</ion-card-subtitle>
+          <ion-card-title>R$ 30,00</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </div>
+
+    <div>
+      <ion-card class="lanche1" routerLink="/flashburguer">
+        <ion-card-header>
+          <ion-card-title>Flash Burguer</ion-card-title>
+          <img class="lanche1img" src="assets/lanche1.png">
+          <ion-card-subtitle class="ingredientes">Pão de hambúrguer, humbúrguer, muçarela, cheddar, molho de cebola</ion-card-subtitle>
+          <ion-card-title>R$ 39,90</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </div>
+
+    <div>
+      <ion-card class="lanche1" routerLink="/flashtudo">
+        <ion-card-header>
+          <ion-card-title>Flash Tudo</ion-card-title>
+          <img class="lanche1img" src="assets/lanche1.png">
+          <ion-card-subtitle class="ingredientes">Pão de hambúrguer, humbúrguer, muçarela, presunto, ovo, bacon</ion-card-subtitle>
+          <ion-card-title>R$ 45,00</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </div>
+
+  </div>
+
+</ion-content>
